@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git and Github Assignment</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        height: 480px;
+        width: 300px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 30px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 30px;
+      }
+      div {
+        gap: 5px;
+        width: 100%;
+      }
+      div input,
+      select {
+        width: 100%;
+        padding: 5px;
+      }
+      button {
+        width: 100%;
+        margin-top: 40px;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <form action="">
+        <h1>Signup</h1>
+        <div>
+          <label for="name">Name:</label><br />
+          <input type="text" />
+        </div>
+        <div>
+          <label for="batch">Batch:</label><br />
+          <select name="batch" id="batch">
+            <option value="1">Sigma 1.0</option>
+            <option value="2">Sigma 2.0</option>
+          </select>
+        </div>
+        <div>
+          <label for="age">Age:</label><br />
+          <input type="number" />
+        </div>
+        <div>
+          <label for="email">Email:</label><br />
+          <input type="email" name="" id="" />
+        </div>
+        <div>
+          <label for="password">Password:</label><br />
+          <input type="password" name="" id="" />
+        </div>
+        <button>Signup</button>
+      </form>
+    </section>
+  </body>
+</html>
